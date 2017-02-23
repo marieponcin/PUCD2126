@@ -1,0 +1,91 @@
+body {
+  width: 100%;
+  font-family:'Avenir-CondensedMedium', 'Arial', 'Sans-Serif';
+}
+
+#timer {
+    display: block;
+    font-size: 300px;
+    font-weight: bold;
+    text-align: center;  
+    margin-top: 20%;
+}
+
+#index {
+    background-color: black;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.2; }
+}
+
+@keyframes pulse {
+    25% {
+        transform: scale(1.1);  }
+    75% {
+        transform: scale(.9);  }
+}
+
+#ffd {
+    color:white;
+    animation: blinker 0.1s linear infinite;
+    font-weight: bold;
+    margin-top: 20%;
+    font-size: 100px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+
+  }
+
+#ffd:hover {
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #001dff, 0 0 70px #001dff, 0 0 80px #001dff, 0 0 100px #001dff, 0 0 150px #001dff;
+        
+}
+
+p {
+    font-size: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes flagtwo{
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+#two {
+    display: none;
+    animation-name: flagtwo;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+}
+
+@keyframes flagone{
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+#one {
+    animation-name: flagone;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 15s;
+
+}
+
+@keyframes flag {
+    from {opacity: 1;}
+    to {opacity: 0;}
+
+#three {
+    animation-name: flag;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+}
+
+
+
+

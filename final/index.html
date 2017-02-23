@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my choice</title>
+
+        <meta charset="utf-8">
+  
+        <link href='./css/reset.css' media='all' rel='stylesheet' type='text/css' />
+        <link href='./css/main.css' media='all' rel='stylesheet' type='text/css' />
+
+        <script language="javascript" type="text/javascript" src="./js/p5.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./js/p5.dom.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./js/p5.sound.min.js"></script>   
+        <script language="javascript" type="text/javascript" src="./js/sketch.js"></script>
+        <script src='./js/jquery-2.1.1.min.js' type='text/javascript'></script>
+        <script src='./js/main.js' type='text/javascript'></script>
+
+  </head>
+
+  <body>
+  <!-- <audio autoplay loop>
+      <source src="free.mp3">
+</audio> -->
+<input id="button" type="image" src="./css/playbutton.png" onclick="play()">
+<input id="pause" type="image" src="./css/pause.png" onclick="pause()">
+
+<audio id="audio" src="./sound/freed.mp3" ></audio>
+<script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+  function pause(){
+       var audio = document.getElementById("audio");
+       audio.pause();
+                 }
+   </script>
+
+   
+   <a href="./about/index.html"><div id="about"><p>ABOUT</p></div></a>
+   <a href="./lyrics/index.html"><div id="lyrics"><p>LYRICS</p></div></a>
+
+
+    
+
+  <div id="disco"><img src="./img/disco2.gif"></div>
+  
+
+
+  <div id="wave">
+   <iframe src="wavef/index.html"  style="height: 200px; width: 100%;">
+           
+   </iframe>
+  </div>
+  <!-- <div id="birds">
+   <iframe  src="birds/index.html" style="height: 500px; width: 100%;">
+           
+   </iframe>
+  </div> -->
+ 
+  <div><img class="take" src="./img/take.png" ></div>
+  <img class="face" src="./img/discowoman.png" >
+  
+
+        
+
+    <script type="text/javascript">
+
+          function allowDrop(ev)
+          {
+              ev.preventDefault();
+          }
+
+          function drag(ev)
+          {
+              ev.dataTransfer.setData("Url","./crazy/index.html");
+                              
+          }
+
+
+          function drop(ev)
+          {
+               ev.preventDefault();
+              window.location=ev.dataTransfer.getData("Url");
+          }
+          
+
+    </script>
+
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img class="bacon" src="./img/dance.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+      </div>
+   
+      
+
+
+
+
+  
+  </body>
+
+</html>
