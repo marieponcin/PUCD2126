@@ -59,7 +59,7 @@
   </div> -->
  
   <div><img class="take" src="./img/take.png" ></div>
-  <img class="face" src="./img/discowoman.png" >
+  
   
 
         
@@ -73,7 +73,8 @@
 
           function drag(ev)
           {
-              ev.dataTransfer.setData("Url","./crazy/index.html");
+              ev.dataTransfer.setData("Url","https://marieponcin.github.io/PUCD2126/final/crazy/index.html");
+              ev.dataTransfer.setData("Url2","https://marieponcin.github.io/PUCD2126/final/crazy/index.html");
                               
           }
 
@@ -83,13 +84,20 @@
                ev.preventDefault();
               window.location=ev.dataTransfer.getData("Url");
           }
+          function drop1(ev)
+          {
+               ev.preventDefault();
+              window.location=ev.dataTransfer.getData("Url1");
+          }
           
+
 
     </script>
 
-      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-      <img class="bacon" src="./img/dance.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+      <div id="div1" >
+      <img class="bacon" src="./img/discowoman.png" draggable="true" ondragstart="drag(event)" id="drag1" >
       </div>
+      <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> <img class="face" src="./img/dance.png" ></div>
    
       
 

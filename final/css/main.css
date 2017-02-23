@@ -71,19 +71,20 @@ cursor: url('./cursor5.png'), auto; }
 }
 
 .bacon{
-    top: 60%;
+    top: 32%;
+   left: 5%;
+   position: absolute;
+
+
+}
+.face{
+  top: 60%;
     left: 80%;    
     position: absolute;
     margin: auto;
     width: 300px;
     height: 300px;
-
-
-}
-.face{
-   top: 32%;
-   left: 5%;
-   position: absolute;
+   
     
 
 }
