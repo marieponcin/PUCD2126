@@ -1,0 +1,89 @@
+html {background-image: url("./hearts.jpg"); width: 100&; height: 100%;}
+
+body {
+  width: 100%;
+  font-family:'Avenir-CondensedMedium', 'Arial', 'Sans-Serif';
+  
+}
+
+
+@keyframes blinker {  
+  50% { opacity: 0.2; }
+}
+
+@keyframes pulse {
+    25% {
+        transform: scale(1.1);  }
+    75% {
+        transform: scale(.9);  }
+}
+
+#title {
+        text-shadow: 8px 8px 0 rgba(255,10,180,0.5);
+        color: #4286f4;
+        animation: blinker 0.1s linear infinite;
+        font-weight: bold;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 180px;
+        text-shadow: 8px 8px 0 rgba(255,0,180,0.5);
+        font-variant-caps: all-small-caps;
+        text-align: center;
+
+  }
+
+#title:hover {
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        text-shadow: 8px 8px 0 rgba(255,0,180,0.5);
+        /*text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #001dff, 0 0 70px #001dff, 0 0 80px #001dff, 0 0 100px #001dff, 0 0 150px #001dff;
+        */
+}
+
+
+h2 {    background-color: #4286f4;
+        color: #4286f4;
+        font-size: 58px;
+        margin: 2%;
+        text-align: center;
+        font-variant-caps: all-small-caps;
+        letter-spacing: 2.5px;
+
+}
+
+h2:active {color: white;
+          font-size: 40px;}
+
+h2:focus {color: white;
+          font-size: 40px;}
+h2:target {color: white;
+          font-size: 40px;}
+
+p {
+        font-size: 25px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 50%;
+        line-height: 1.2;
+        text-align: justify;
+      
+        width: 30em;
+}
+
+p::first-letter {
+
+        font-weight: bolder;
+        font-size: 30px;
+}
+
+p::selection { background-color: #4286f4; color: #4286f4;}
+
+span::selection{ background-color: #4286f4; color: white;}
+
+
+
+
+
