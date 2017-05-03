@@ -42,6 +42,23 @@ h1 {
 
 }
 
+h2 {font-size: 20px;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  border-bottom: 2px solid black;
+  width: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+
+#ei2 {font-size: 20px;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  border-bottom: 2px solid black;
+  width: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
 p {
   font-size: 1.5em;
   line-height: 1.4em;
@@ -73,7 +90,7 @@ ul.posts li {
 .pone {
   margin:65px;
   font-size: 18px;
-
+  margin-top: 20px;
 
 }
 

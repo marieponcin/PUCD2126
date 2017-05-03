@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+	<script src="./js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
+</head>
+<header>
+	<div></div>
+</header>
+<body class="index">
+		<div id="listingd">
+				<a href="events.html"><div id="back">
+					<p>BACK</p>
+				</div> </a>
+
+				<div>
+					<p id="title">Outwatch x Thesis: Onur Ozer</p>
+					<p id="attending">133 ATTENDING</p>
+				</div>
+
+				<div id="dath">
+					<p id="date">Fri 28, February</p>
+					<p id="hour">10pm - 8am</p>
+				</div>
+
+				<a href="panther.html"><div id="loc">
+					<p id="loca">TBA Brooklyn - To Be Announced</p>
+				</div></a>
+
+				<div id="tickets">
+					<p id="price">5 - 15$</p>
+				<div id="ticb"><p id="tic">TICKETS</p></div>
+				</div>
+
+				<div id="description">
+					<p>One of Berlin's most respected selectors hits the US for the first time in five years.</p>
+					<ul>
+					<a href="onur.html"><li>Onur Ozer</li></a>
+					<li>Rachos</li>
+					<li>Burchan</li>
+					<li>Jessie & Emre</li>
+					</ul>
+					<p>Doors 10pm</p>
+				</div>
+				<div id="buttons">
+				<input id="buttop" type="image" src="./css/playbutton.png" onclick="play()">
+				<input id="pause" type="image" src="./css/pause.png" onclick="pause()">
+				<p>ONUR OZER</p>
+				</div>
+
+				<audio id="audio" src="./sound/nina.mp3" ></audio>
+				<script>
+				  function play(){
+				       var audio = document.getElementById("audio");
+				       audio.play();
+				                 }
+				  function pause(){
+				       var audio = document.getElementById("audio");
+				       audio.pause();
+				                 }
+				</script>
+
+				<div id="buttons2">
+				<input id="buttop2" type="image" src="./css/playbutton.png" onclick="play()">
+				<input id="pause2" type="image" src="./css/pause.png" onclick="pause()">
+				<p>RACHOS</p>
+				</div>
+
+				<audio id="audio" src="./sound/dax.mp3" ></audio>
+				<script>
+				  function play(){
+				       var audio = document.getElementById("audio");
+				       audio.play();
+				                 }
+				  function pause(){
+				       var audio = document.getElementById("audio");
+				       audio.pause();
+				                 }
+				</script>
+
+				<div id="buttons3">
+				<input id="buttop3" type="image" src="./css/playbutton.png" onclick="play()">
+				<input id="pause3" type="image" src="./css/pause.png" onclick="pause()">
+				<p>BURCHAN</p>
+				</div>
+
+				<audio id="audio" src="./sound/nina.mp3" ></audio>
+				<script>
+				  function play(){
+				       var audio = document.getElementById("audio");
+				       audio.play();
+				                 }
+				  function pause(){
+				       var audio = document.getElementById("audio");
+				       audio.pause();
+				                 }
+				</script>
+		</div>
+</html>

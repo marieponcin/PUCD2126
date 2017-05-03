@@ -1,0 +1,286 @@
+/* 17 DEVOE/MAIN */
+
+hmtl, body { font-family: avenir next condensed; width: 100%;
+height:100%;  }
+a:link    { text-decoration: none; }
+
+header div{ background-color: black; height: 100px; width: 100%; margin-top: -8px; }
+
+
+#maincat p {/* EVENTS: */
+text-align: center;
+font-family: AvenirNextCondensed-Heavy;
+font-size: 36px;
+color: #000000;
+letter-spacing: 0;
+margin-top: 0px;
+padding-top: 60px;}
+
+#maincat {margin-bottom: 0px; padding: 0px; margin: 0px;
+height: 170px;
+border: 3px solid black;}
+
+#events #maincat {height: 50px;}
+#events #maincat p {padding-top: 4px;}
+#listdate {/* FRIDAY 28, FEBRUARY: */
+font-family: AvenirNextCondensed-Bold;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 0;
+background-color: #4C00FF;
+margin-top: -8px;}
+#listdate p{padding-left: 5px;}
+
+#datechoice ul { list-style-type: none;
+    margin: 0;
+    padding: 0;}
+#datechoice li { float: left;/* TODAY: */
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	background-color: black;
+	display: block; height:40px; 
+	padding-top: 10px;
+	margin-right: 3px;
+	padding-left: 15.5px;
+	padding-right: 15px;}
+
+#lastdatechoice {margin-right: 0px;}
+#datechoice { display: block; height:40px; background-color: #B10040; }
+
+#listing {height: 40px; padding-left: 30px;padding-bottom: 8px; margin-top: -10px; border-bottom-style: solid; 
+	border-bottom-width: 1px;
+	border-bottom-color: grey;
+	margin-bottom: 0px;}
+
+#listing .name {
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0;
+	margin-bottom: 0px;}
+
+#listing .location {margin-top: 0px;
+	font-family: AvenirNextCondensed-Medium;
+	font-size: 13px;
+	color: #B10040;
+	letter-spacing: 0;}
+
+#listing .location span{
+	font-family: AvenirNextCondensed-UltraLight;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0;}
+
+#back {/* BACK: */
+	font-family: AvenirNextCondensed-Heavy;
+	font-size: 18px;
+	color: #000000;
+	letter-spacing: 0;
+	margin-top: -10px;
+	padding-left: 10px;
+	border-bottom-style: solid; 
+	border-bottom-width: 3px;
+	border-bottom-color: black;
+	height: 30px;}
+
+#listingd #title {height: 90px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border-bottom-style: solid; 
+	border-bottom-width: 3px;
+	border-bottom-color: black;
+	font-family: AvenirNextCondensed-Heavy;
+	font-size: 36px;
+	color: #000000;
+	letter-spacing: 0;}
+
+#listingd #attending {/* 133 ATTENDING: */
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 18px;
+	color: #000000;
+	letter-spacing: 0;
+	background-color: #E2E2E2;
+	float: right;
+	margin-top: -64px;}
+
+#dath {
+	border-bottom-style: solid; 
+	border-bottom-width: 3px;
+	border-bottom-color: black;}
+
+#date {/* Fri, 28 Feb 2017: */
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 18px;
+	color: #000000;
+	letter-spacing: 0; float: left;
+	text-align: left;
+	margin-top: -30px;
+	padding-left: 10px;}
+
+#hour {/* 10pm - 8am: */
+	font-family: AvenirNextCondensed-DemiBold;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0; 
+	text-align: right;
+	margin-top: -28px;
+	padding-right: 10px;}
+
+#loc {/* TBA Brooklyn - To Be: */
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 18px;
+	color: #B10040;
+	letter-spacing: 0;
+	border-bottom-style: solid; 
+	border-bottom-width: 3px;
+	border-bottom-color: black;
+	height:40px;
+	padding-left: 10px;
+	margin-top: 0px;}
+
+#tic {
+	font-family: AvenirNextCondensed-DemiBold;
+	font-size: 32px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 30px;
+	text-align: right;
+	margin-top: 0px;
+	padding-right: 10px;}
+#ticb {
+	background-color: #4C00FF;
+	height: 30px;
+	width: 100px;
+	text-align: right;
+	float: right;
+	margin-top: 0px;
+	padding-right: 10px;
+	margin-top: -47px;}
+#price {
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 18px;
+	color: #000000;
+	letter-spacing: 0;
+	padding-left: 10px;
+	margin-top: 10px;}
+#tickets {
+	border-bottom-style: solid; 
+	border-bottom-width: 3px;
+	border-bottom-color: black;
+	height: 32px;}
+
+#description p {
+	font-family: AvenirNextCondensed-DemiBold;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0;
+	padding-left: 10px;}
+
+#description ul li {
+	list-style: none;
+	list-style-type: none;
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 16px;
+	color: #B10040;
+	letter-spacing: 0;}
+
+#description {border-bottom-style: solid; border-bottom-width: 3px;border-bottom-color: black;}
+
+#buttop{position: absolute;border: none;width: 40px;height: 40px; float:left;outline:none;background-color: #4C00FF;margin-left: 8px;}
+#pause{border: none;width: 40px;height: 40px;background-repeat: no-repeat;background-position: center;background-color: #4C00FF;position: absolute;margin-left: 14%;}
+#buttons { background-color: #4C00FF; height: 42px;margin-left: 5px; margin-right: 5px;font-family: AvenirNextCondensed-Bold;font-size: 18px;color: #FFFFFF;letter-spacing: 0;border-style: solid; border-width: 1px;border-color: black;margin-top: 10px;}
+#buttons p {padding-left: 120px; margin-top: 0px; padding-top: 10px;}
+#buttop2{position: absolute;border: none;width: 40px;height: 40px; float:left;outline:none;background-color: #4C00FF;margin-left: 8px;}
+#pause2{border: none;width: 40px;height: 40px;background-repeat: no-repeat;background-position: center;background-color: #4C00FF;position: absolute;margin-left: 14%;}
+#buttons2 {background-color: #4C00FF; height: 42px; margin-left: 5px; margin-right: 5px;/* Onur Ozer: */font-family: AvenirNextCondensed-Bold;font-size: 18px;color: #FFFFFF;letter-spacing: 0;border-style: solid; border-width: 1px;border-color: black;margin-top: 10px;}
+#buttons2 p {padding-left: 120px; margin-top: 0px; padding-top: 10px;}
+#buttop3{position: absolute;border: none;width: 40px;height: 40px; float:left;outline:none;background-color: #4C00FF;margin-left: 6px;}
+#pause3{border: none;width: 40px;height: 40px;background-repeat: no-repeat;background-position: center;background-color: #4C00FF;position: absolute;margin-left: 14%;}
+#buttons3 {margin-top: 10px; background-color: #4C00FF; height: 42px;margin-left: 5px; margin-right: 5px;font-family: AvenirNextCondensed-Bold; font-size: 18px;color: #FFFFFF;letter-spacing: 0;	border-style: solid; border-width: 1px;border-color: black;margin-top: 10px;}
+#buttons3 p {padding-left: 120px; margin-top: 0px; padding-top: 10px;}
+
+#arti ul li {float:left;
+	list-style-type: none; 
+	font-family: AvenirNextCondensed-DemiBold;
+	font-size: 18px;color: #000000;
+	letter-spacing: 0;line-height: 19px; 
+	border-style: solid; 
+	border-width: 2px;
+	border-color: black;
+	margin-top: 0px;
+	padding-top:12px;
+	padding-bottom: 6px;
+	padding-left:50px;
+	padding-right:50px;
+	width: 22.4%;
+}
+
+#arti ul { margin-left: -42px; margin-top: -30px;  }
+
+#arti {display: block; width: 100%; height: 30px; width: 100%; margin-left: 0px;}
+
+#upcoming {font-family: AvenirNextCondensed-Bold;font-size: 18px;color: #000000;letter-spacing: 0; padding-left: 10px;
+border-bottom-style: solid; border-bottom-width: 3px;border-bottom-color: black;}
+
+#soundcloud {/* SOUNDCLOUD: */
+font-family: AvenirNextCondensed-Bold;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 0;
+text-align: center;
+margin-top: 20px;
+background-color: black;
+padding: 5px;
+margin-left: 50px;
+margin-right: 50px;}
+
+#pant {border-bottom-style: solid; 
+	border-bottom-width: 3px;
+	border-bottom-color: black;
+	margin-bottom: 0px;}
+
+#up {font-family: AvenirNextCondensed-Bold;font-size: 18px;color: #000000;letter-spacing: 0; padding-left: 10px; margin-top: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
