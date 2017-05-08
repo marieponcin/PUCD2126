@@ -29,8 +29,16 @@ color: #FFFFFF;
 letter-spacing: 0;
 background-color: #4C00FF;
 margin-top: -8px;}
-#listdate p{padding-left: 5px;}
-
+#listn {
+font-size: 16px;
+color: black;
+letter-spacing: 0;
+background-color: lightgrey;
+margin-top: -8px; }
+#listdate p{padding-left: 5px;
+}
+#listn p{padding-left: 5px;
+}
 #datechoice ul { list-style-type: none;
     margin: 0;
     padding: 0;}
@@ -244,22 +252,105 @@ margin-right: 50px;}
 
 #up {font-family: AvenirNextCondensed-Bold;font-size: 18px;color: #000000;letter-spacing: 0; padding-left: 10px; margin-top: 30px;}
 
+#favs {background-color: black;}
+#fav {
+font-family: AvenirNextCondensed-Heavy;
+font-size: 34px;
+color: white;
+letter-spacing: 0;
+margin-top: 0px;
+padding-top: 4px;
+float: left;
+width: 30%;
+margin: auto;
+text-align: center;}
+
+#favs:hover {opacity: 50%;}
+
+
+#tcn {font-family: AvenirNextCondensed-Heavy;
+font-size: 124px;
+color: #4C00FF;
+letter-spacing: 0;
+margin-top: -30px;
+padding-top: 4px;
+float: left;
+position: absolute;
+
+}
+
+#yc {font-family: AvenirNextCondensed-Heavy;
+font-size: 34px;
+color: white;
+letter-spacing: 0;
+margin-top: 0px;
+padding-top: 4px;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #4C00FF;
+
+
+}
+
+#yc2 {font-family: AvenirNextCondensed-Heavy;
+font-size: 34px;
+color: white;
+letter-spacing: 0;
+margin-top: 0px;
+padding-top: 4px;
+opacity: 0.8;
 
 
 
 
+}
+
+.ind {background-color: black; height: 100%;}
+
+
+
+#index3 p {}
+
+@keyframes blinker {  
+  50% { opacity: 0.2; }
+}
 
 
 
 
+ #index2 p {font-size: 14px;
+color: white;
+margin-top: 140px;
 
+opacity: 0.8; 
 
+text-align: center;}
 
+#index3 p {
+	font-family: AvenirNextCondensed-Bold;
+	font-size: 26px;
+color: white;
+opacity: 10%;
+padding-top: 60px;
+padding-left: 40px;
+padding-right: 40px;
+text-align: center;}
 
+#indo {
+	padding-bottom: 10px;
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+	border-bottom-color: white;
+	margin-bottom: 0px;
+opacity: 0.8;}
 
+	#index3 p {
+	text-align: center;
+	
+    color:white;
+    animation: blinker 0.1s linear infinite;
 
-
-
+    text-shadow: 0 0 10px #4C00FF, 0 0 20px #4C00FF, 0 0 30px #4C00FF, 0 0 40px #4C00FF, 0 0 70px #4C00FF, 0 0 80px #4C00FF, 0 0 100px #4C00FF;
+font-size: 40px;
+  }
 
 
 
