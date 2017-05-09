@@ -52,7 +52,8 @@ margin-top: -8px; }
 	padding-top: 10px;
 	margin-right: 3px;
 	padding-left: 15.5px;
-	padding-right: 15px;}
+	padding-right: 15px;
+width: 40px;}
 
 button {float: left;/* TODAY: */
 	font-family: AvenirNextCondensed-Bold;
@@ -63,7 +64,7 @@ button {float: left;/* TODAY: */
 	display: block; height:40px; 
 	padding-bottom: 20px;
 	margin-right: 0px;
-	width: 50px;
+	width: 40px;
 	
 border:none;}
 
