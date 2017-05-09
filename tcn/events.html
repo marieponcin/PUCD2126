@@ -7,12 +7,13 @@
 	<meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/perso.js"></script>
+	<script src="./js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
 </head>
 <header>
 	<a href="three.html"><div> <p id="tcn">TCN<span id="yc">YC</span></p></div></a>
 </header>
+
 <body class="index">
 		<div id="events">
 				<a href="events.html"><div id="maincat">
@@ -22,7 +23,7 @@
 		<div id="datechoice">
 			<ul>
 				<li>TODAY</li>
-				<li>TMR</li>	
+				<li class="first"><button type="button">TMR</button></li>	
 				<li>2MAR</li>
 				<li>3MAR</li>
 				<li id="lastdatechoice">4MAR</li>
@@ -40,20 +41,20 @@
 				<p class="name">Jimmy Edgar, Mike Dunn, Jovonn</p>
 				<p class="location"><span>at</span> Schimanski</p>
 		</div></a>
-		<div id="listing">
+		<a href="event3.html"><div id="listing">
 				<p class="name">The Level Party with Flørist</p>
 				<p class="location"><span>at</span> The Paper Box</p>
-		</div>
+		</div></a>
 		<div id="listing">
 				<p class="name">Pink Mammoth presents: ROMP</p>
-				<p class="location"><span>at</span> TBA Brooklyn</p>
+				<p class="location"><span>at</span> Studio99</p>
 		</div>
 		<div id="listing">
 				<p class="name">DJ Harvey at Output</p>
-				<p class="location"><span>at</span> TBA Brooklyn</p>
+				<p class="location"><span>at</span> Output</p>
 		</div>
 
-		<div id="listdate">
+		<div class="second" id="listdate">
 				<p>SATURDAY 1, MARCH</p>
 		</div>
 		<a href="event1.html"><div id="listing">
