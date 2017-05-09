@@ -63,9 +63,10 @@ button {float: left;/* TODAY: */
 	background-color: black;
 	display: block; height:40px; 
 	padding-bottom: 20px;
-	margin-right: 0px;
-	width: 40px;
-	text-align: left;
+position: absolute;
+margin-top: -10px;
+margin-left: -12px;
+padding-top: 10px;
 	
 	
 border:none;}
