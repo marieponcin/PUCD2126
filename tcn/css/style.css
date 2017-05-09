@@ -369,6 +369,13 @@ opacity: 0.8;}
 font-size: 40px;
   }
 
+#lo:hover #um{opacity: 1;}
+#lo:hover #um2{opacity: 0;}
+/*#fav1:hover {opacity: 0.2;
+background-color: #4C00FF;}*/
+
+#um {position: absolute; color: white;font-family: AvenirNextCondensed-Bold; font-size: 40px; top: 0; margin-top: 260px; margin-left: 32%; opacity: 1; background-color:black;}
+#um2 {position: absolute; color: white;font-family: AvenirNextCondensed-Bold; font-size: 40px; top: 0; margin-top: 260px;margin-left: 17%; opacity: 1; background-color: black;}
 
 
 
